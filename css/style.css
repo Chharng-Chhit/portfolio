@@ -9823,3 +9823,41 @@ textarea.form-control {
   height: auto;
   border-radius: 5px;
 }
+
+@media (max-width: 768px) {
+
+  .text-container, .image-container {
+      max-width: 100%;
+      text-align: center;
+  }
+
+  .text-container h1 {
+      font-size: 36px;
+  }
+
+  .text-container h2 {
+      font-size: 24px;
+  }
+
+  .text-container .subheading {
+      font-size: 18px;
+  }
+}
+
+@media (max-width: 480px) {
+  .text-container h1 {
+      font-size: 28px;
+  }
+
+  .text-container h2 {
+      font-size: 20px;
+  }
+
+  .text-container .subheading {
+      font-size: 16px;
+  }
+
+  .text-container .btn {
+      padding: 8px 16px;
+  }
+}
