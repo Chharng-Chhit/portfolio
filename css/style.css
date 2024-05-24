@@ -9753,3 +9753,73 @@ textarea.form-control {
 .padding-top {
   margin-top: 60px;
 }
+
+.hero {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.text-container {
+  flex: 1;
+  max-width: 50%;
+}
+
+.text-container .subheading {
+  font-size: 24px;
+  color: #ffc107;
+}
+
+.text-container h1 {
+  font-size: 48px;
+  color: #fff;
+  margin: 0;
+}
+
+.text-container h1 span {
+  color: #ffc107;
+}
+
+.text-container h2 {
+  font-size: 32px;
+  color: #fff;
+  margin: 20px 0;
+}
+
+.text-container p {
+  margin: 0;
+}
+
+.text-container .btn {
+  margin-right: 10px;
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.text-container .btn-primary {
+  background-color: #ffc107;
+  color: #000;
+}
+
+.text-container .btn-outline-white {
+  background-color: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+.image-container {
+  flex: 1;
+  max-width: 50%;
+  text-align: center;
+}
+
+.image-container img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
