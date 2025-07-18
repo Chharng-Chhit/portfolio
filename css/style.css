@@ -9839,6 +9839,11 @@ textarea.form-control {
   transform: scale(1.05);
 }
 
+.text-container .btn {
+  margin: 5px;
+  display: inline-block;
+}
+
 @media (max-width: 768px) {
 
   .text-container, .image-container {
@@ -9862,6 +9867,12 @@ textarea.form-control {
   .text-container .subheading {
       font-size: 18px;
   }
+
+  .text-container .btn {
+      margin: 5px;
+      padding: 10px 20px;
+      font-size: 14px;
+  }
 }
 
 @media (max-width: 480px) {
@@ -9884,5 +9895,9 @@ textarea.form-control {
 
   .text-container .btn {
       padding: 8px 16px;
+      margin: 3px;
+      font-size: 13px;
+      display: block;
+      margin-bottom: 10px;
   }
 }
